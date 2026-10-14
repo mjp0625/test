@@ -4,7 +4,7 @@ flowchart TB
         APP["新开发的POS业务App"]
         PAY["收单支付功能"]
         SUB["国补券查询、核销功能"]
-        BIND["统一订单号 / 交易关联 / 金额计算"]
+        BIND["统一订单号/交易关联/金额计算"]
         APP --> PAY
         APP --> SUB
         PAY --> BIND

@@ -1,4 +1,4 @@
-
+```mermaid
 flowchart TB
     subgraph POS["POS终端"]
         APP["新开发的POS业务App"]
@@ -39,3 +39,4 @@ flowchart TB
     MGT -->|"商品、商户信息同步"| UAPI1
     PRE <-->|"收单请求、支付结果"| OB
     PRE <-->|"国补查询、核销、撤销等"| UAPI2
+```

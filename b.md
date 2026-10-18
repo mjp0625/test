@@ -1,3 +1,5 @@
+```mermaid
+
 flowchart TB
     %% ==================== 业务使用端 ====================
     subgraph A["一、业务使用端"]
@@ -81,3 +83,4 @@ flowchart TB
     class AUTH,MER,ORD,PAY,SUB service
     class REC,EXC,LOG manage
     class ABC,UNION,FILE external
+```
